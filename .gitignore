@@ -1,0 +1,58 @@
+# Workspace clutter
+.idea/
+.vscode/
+.DS_Store
+
+# Local learning materials
+*.pdf
+*文件说明*.txt
+*面试介绍*.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+
+# Local env files
+.env
+.env.local
+.env.*.local
+backend/llm_backend/.env
+frontend/.env
+
+# Build outputs
+frontend/dist/
+backend/llm_backend/static/dist/
+build/
+dist/
+
+# Runtime artifacts
+logs/
+log/
+uploads/
+backend/logs/
+backend/uploads/
+backend/llm_backend/uploads/
+
+# GraphRAG generated data
+backend/llm_backend/app/graphrag/data/logs/
+backend/llm_backend/app/graphrag/data/output/
+backend/llm_backend/app/graphrag/data/update_output/
+backend/llm_backend/app/graphrag/data/pdf_outputs/
+backend/llm_backend/app/graphrag/data/pdf_csv_exports/
+backend/llm_backend/app/graphrag/data/prompt_turn_output/
+backend/llm_backend/app/graphrag/data/pdf_prompt_turn_output/
+backend/llm_backend/app/graphrag/data/cache/
+backend/llm_backend/app/graphrag/origin_data/
