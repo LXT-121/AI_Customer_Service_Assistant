@@ -92,7 +92,7 @@ pip install -r requirements.txt
 3. 配置环境变量
 
 ```bash
-copy .env.example llm_backend\.env
+copy .env.example .env
 ```
 
 4. 启动后端服务
